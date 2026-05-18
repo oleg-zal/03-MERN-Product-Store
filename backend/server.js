@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import path from "path";
 
-import keepAliveCron from "./lib/cron";
+import keepAliveCron from "./lib/cron.js";
 import { connectDB } from "./config/db.js";
 
 import productRoutes from "./routes/product.route.js";
